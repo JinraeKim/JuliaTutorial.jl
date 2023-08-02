@@ -1,0 +1,13 @@
+name = "JuliaTutorial"
+uuid = "6b07a618-2d83-4580-801f-25ad26c8ce9f"
+authors = ["JinraeKim <kjl950403@gmail.com> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
