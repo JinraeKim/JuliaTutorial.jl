@@ -1,5 +1,15 @@
 module JuliaTutorial
 
-# Write your package code here.
+using DifferentialEquations
+
+
+include("simulators/simulators.jl")
+
+
+# simulator
+export AbstractSimulator
+export SimpleSimulator, ComplexSimulator
+export sim
+
 
 end
