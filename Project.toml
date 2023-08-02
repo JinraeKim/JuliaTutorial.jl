@@ -3,11 +3,17 @@ uuid = "6b07a618-2d83-4580-801f-25ad26c8ce9f"
 authors = ["JinraeKim <kjl950403@gmail.com> and contributors"]
 version = "1.0.0-DEV"
 
+[deps]
+DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
+FSimZoo = "e2d5807d-1594-43f7-91a6-54c6eef5a9d2"
+
 [compat]
+DifferentialEquations = "7.8"
 julia = "1"
 
 [extras]
+ComponentArrays = "b0b7db55-cfe3-40fc-9ded-d10e2dbeff66"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [targets]
-test = ["Test"]
+test = ["Test", "ComponentArrays"]

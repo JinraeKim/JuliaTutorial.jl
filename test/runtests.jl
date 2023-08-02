@@ -2,5 +2,5 @@ using JuliaTutorial
 using Test
 
 @testset "JuliaTutorial.jl" begin
-    # Write your tests here.
+    include("simulators.jl")
 end
