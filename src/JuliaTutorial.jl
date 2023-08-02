@@ -1,9 +1,11 @@
 module JuliaTutorial
 
 using DifferentialEquations
+using FSimZoo
 
 
 include("simulators/simulators.jl")
+include("fsimzoo.jl")
 
 
 # simulator
