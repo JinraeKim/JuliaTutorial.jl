@@ -3,6 +3,11 @@ uuid = "6b07a618-2d83-4580-801f-25ad26c8ce9f"
 authors = ["JinraeKim <kjl950403@gmail.com> and contributors"]
 version = "1.0.0-DEV"
 
+[deps]
+Lux = "b2108857-7c20-44ae-9111-449ecde12c47"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
+
 [compat]
 julia = "1"
 
